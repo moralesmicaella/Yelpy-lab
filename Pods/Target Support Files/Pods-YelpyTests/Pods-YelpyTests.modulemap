@@ -1,0 +1,6 @@
+framework module Pods_YelpyTests {
+  umbrella header "Pods-YelpyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
