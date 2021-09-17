@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2469E00E25EDC6B100DB7BA3 /* 35625-food-choose.json in Resources */ = {isa = PBXBuildFile; fileRef = 2469E00D25EDC6B100DB7BA3 /* 35625-food-choose.json */; };
 		24B7C21A25DFA2090023DCF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7C21925DFA2090023DCF9 /* AppDelegate.swift */; };
 		24B7C21C25DFA2090023DCF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7C21B25DFA2090023DCF9 /* SceneDelegate.swift */; };
 		24B7C22125DFA2090023DCF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B7C21F25DFA2090023DCF9 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		07499A3EF3E22CFDB2DDE913 /* Pods_Yelpy_YelpyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yelpy_YelpyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12365DFFED0E6CF0F916EA55 /* Pods-Yelpy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelpy.release.xcconfig"; path = "Target Support Files/Pods-Yelpy/Pods-Yelpy.release.xcconfig"; sourceTree = "<group>"; };
 		224EBA87FEAD9FF8A7604C18 /* Pods-YelpyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpyTests.release.xcconfig"; path = "Target Support Files/Pods-YelpyTests/Pods-YelpyTests.release.xcconfig"; sourceTree = "<group>"; };
+		2469E00D25EDC6B100DB7BA3 /* 35625-food-choose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35625-food-choose.json"; sourceTree = "<group>"; };
 		24B7C21625DFA2090023DCF9 /* Yelpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B7C21925DFA2090023DCF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24B7C21B25DFA2090023DCF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24A9554C25EDBA670029AD8A /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				2469E00D25EDC6B100DB7BA3 /* 35625-food-choose.json */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
 		24B7C20D25DFA2090023DCF9 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		24B7C21825DFA2090023DCF9 /* Yelpy */ = {
 			isa = PBXGroup;
 			children = (
+				24A9554C25EDBA670029AD8A /* Extra */,
 				24B7C21925DFA2090023DCF9 /* AppDelegate.swift */,
 				24B7C21B25DFA2090023DCF9 /* SceneDelegate.swift */,
 				24B7C26F25DFC6990023DCF9 /* Models */,
@@ -330,6 +341,7 @@
 			files = (
 				24B7C22625DFA20C0023DCF9 /* LaunchScreen.storyboard in Resources */,
 				24B7C22325DFA20C0023DCF9 /* Assets.xcassets in Resources */,
+				2469E00E25EDC6B100DB7BA3 /* 35625-food-choose.json in Resources */,
 				24B7C22125DFA2090023DCF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

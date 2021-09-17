@@ -7,6 +7,8 @@ target 'Yelpy' do
 
   # Pods for Yelpy
   pod 'AlamofireImage'
+  pod 'lottie-ios'
+  pod 'SkeletonView'
 
   target 'YelpyTests' do
     inherit! :search_paths

@@ -2,19 +2,27 @@ PODS:
   - Alamofire (5.4.1)
   - AlamofireImage (4.1.0):
     - Alamofire (~> 5.1)
+  - lottie-ios (3.2.1)
+  - SkeletonView (1.13.0)
 
 DEPENDENCIES:
   - AlamofireImage
+  - lottie-ios
+  - SkeletonView
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AlamofireImage
+    - lottie-ios
+    - SkeletonView
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  lottie-ios: 106e92eaf11fbed0a76590b4cdb9b5ec26123ff7
+  SkeletonView: 2b14cb767a7da384d17d5d7e1db0d55a6cf9566a
 
-PODFILE CHECKSUM: d7876223112a65a3bc3050577b9e25db2ae5dfc7
+PODFILE CHECKSUM: f4a7a101387d64de18c5ea1bbecba2457f1a6b2f
 
 COCOAPODS: 1.10.1
