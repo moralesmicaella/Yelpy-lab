@@ -1,2 +1,2 @@
 ### App Walkthough GIF
-![](yeply.gif)
+![](yelpy.gif)
